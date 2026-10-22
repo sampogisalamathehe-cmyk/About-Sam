@@ -78,6 +78,7 @@ a:hover {
     left: 40px;
     transform: translateX(37%);
     box-sizing: border-box;
+    position: relative;
 }
 
 #image-container img {
