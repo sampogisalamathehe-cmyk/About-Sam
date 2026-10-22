@@ -76,7 +76,8 @@ a:hover {
     position: absolute;
     bottom: -9%;
     left: 40px;
-    transform: translateX(37%);        
+    transform: translateX(37%);
+    box-sizing: border-box;
 }
 
 #image-container img {
