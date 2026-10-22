@@ -48,6 +48,8 @@ a:hover {
     align-items: flex-start;
     gap: 25px;
     width: 100%;
+    position: relative;    
+    padding-bottom: 320px; 
 }
 
 #section1 {
@@ -71,12 +73,15 @@ a:hover {
     margin: 0;
 }
 #image-container {
-    display: flex;        
-    gap: 70px; 
+    display: flex;
+    gap: 20px;              
     position: absolute;
-    bottom: -9%;
-    left: 40px;
-    transform: translateX(37%);
+    bottom: -50%;              
+    left: 50%;              
+    transform: translateX(-50%); 
+    width: 100%;            
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 #image-container img {
